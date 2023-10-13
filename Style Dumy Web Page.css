@@ -1,0 +1,76 @@
+html{
+    background-color: antiquewhite;
+}
+*:hover{
+    color: rgb(226, 10, 10);
+    border-radius: 5px;
+}
+
+header {
+    background-color: rgba(13, 198, 245, 0.477);
+    height: 20vh;
+    width: 100vw;
+    margin: 0%;
+    
+}
+header p{
+    width: 25%;
+    font: italic 10vh "Young Serif" ;
+    text-shadow: 2px 2px 4px rgba(1, 19, 27, 0.223);
+    float: left;
+    margin: 1px;
+    padding: 1.5% 0%;
+    
+}
+nav{
+    width: 50%;
+    height: 10vh;
+    float: right;
+    margin: 8px;
+    padding: 2.5% 0%;
+}
+nav a{
+    float: left;
+    font: italic 3vh "Young Serif"; 
+    width: 25%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+footer a{ 
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    padding: 10px;
+    font-size:18px;
+    font-style: normal;
+    color: aliceblue;
+    font-family: arial;
+}
+footer{
+    width: 100vw;
+    padding: 30px;
+    background-color: black;
+}   
+section p{
+    width: 100vw ;
+    color: black;
+    font-size: 24px;
+    text-shadow: 1.5px 1.5px 2px black;
+    font-family: Young Serif;
+    background-color: rgba(13, 198, 245, 0.477);
+    box-shadow: 2px 2px 3px red;
+    border-style: groove ;
+    border-radius: 5px;
+}
+section img{
+    box-shadow: 2px 2px 3px red;
+    width: 23vw;
+    height: 250px;
+    border-style: groove ;
+    border-radius: 30px;
+    white-space: 10px;
+}
+section img:hover{
+    border: none;
+}
