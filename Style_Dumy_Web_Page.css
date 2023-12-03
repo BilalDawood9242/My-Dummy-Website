@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0px;
+}
+header{
+    
+    background-color: rgba(210, 105, 30, 0.589);
+}
+.logo{
+    display: flex;
+    background-image:url(Pictures/Mughals_Font_Family-removebg-preview.png);
+    width: 30vw;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed; 
+    background-size:auto;
+    
+}
+nav, footer{
+    display: flex;
+    background-color: #3333337f;
+}
+nav a, footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px; 
+    float: left;
+}
+section{
+    text-align: center;
+    height: 50vh;
+    padding: 50px;
+}
+section:nth-child(even){
+    background-color: rgba(0, 255, 255, 0.144);
+}
+section:nth-child(odd){
+    background-color: rgba(0, 255, 76, 0.156);
+}
+img{
+    width: 15%;
+    margin: 3vw;
+    border-radius: 50%;
+    filter: drop-shadow(16px 16px 5px gray);
+}
+
+@media screen and (max-width: 700px){
+    nav{
+       flex-direction: column;
+       vertical-align: middle;
+        
+    }
+    .logo{
+        display: block;
+        width: 100vw;
+        background-image:url(Pictures/Mughals_Font_Family-removebg-preview.png) ;
+        background-size: contain;      
+    }
+}
